@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #cce7ff, #eaf5ff);
+    padding: 25px 0;
+}
+
+.container {
+    background: #fff;
+    width: 620px;                 
+    margin: 0 auto;
+    padding: 30px 45px;           
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    border-top: 5px solid #1976d2;
+}
+
+.container.wide {
+    width: 900px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #1976d2;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+    display: block;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #1976d2;
+}
+
+.row {
+    display: flex;
+    gap: 25px;
+}
+
+.field {
+    flex: 1;
+}
+
+.radio-group {
+    display: flex;
+    gap: 35px;
+    margin: 6px 0 14px 0;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #333;
+}
+
+.radio-item input[type="radio"] {
+    margin: 0;
+}
+
+input[type="submit"] {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 11px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background: #125aa0;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #1976d2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logout-btn {
+    background: #0d47a1;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    background: #08306b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #1976d2;
+    color: #fff;
+    padding: 11px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f4f9ff;
+}

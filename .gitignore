@@ -1,0 +1,27 @@
+# Maven
+target/
+*.log
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ / VS Code (safe to keep)
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tomcat / Server files
+Servers/
+work/
+temp/
+
+# Compiled files
+*.class
+
+# Environment files
+*.env
