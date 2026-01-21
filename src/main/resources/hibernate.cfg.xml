@@ -1,7 +1,7 @@
 <hibernate-configuration>
     <session-factory>
 
-        <!-- 1️⃣ Database connection details -->
+        <!--  Database connection details -->
         <property name="hibernate.connection.driver_class">
             com.mysql.cj.jdbc.Driver
         </property>
@@ -18,7 +18,7 @@
             ${db.pasword}
         </property>
 
-        <!-- 2️⃣ Hibernate settings -->
+        <!--  Hibernate settings -->
         <property name="hibernate.dialect">
             org.hibernate.dialect.MySQL8Dialect
         </property>
@@ -26,10 +26,10 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
 
-        <!-- 3️⃣ Schema generation -->
+        <!--  Schema generation -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <!-- 4️⃣ Entity mapping -->
+        <!--  Entity mapping -->
         <mapping class="com.mednet.employee.model.Employee"/>
 
     </session-factory>
